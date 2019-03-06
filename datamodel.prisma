@@ -11,3 +11,11 @@ type Post {
   published: Boolean! @default(value: "false")
   author: User
 }
+
+type Comment {
+  id: ID! @unique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  bodyText: String!
+  createdBy: User
+}
