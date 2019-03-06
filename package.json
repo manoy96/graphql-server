@@ -1,0 +1,11 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "my graphql server practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Espinoza",
+  "license": "ISC"
+}
