@@ -4,8 +4,12 @@
   "description": "my graphql server practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dockerStart": "docker-compose -f ./docker-compose.yml up -d",
+    "deploy": "prisma deploy"
   },
   "author": "Manuel Espinoza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prisma-client-lib": "^1.28.0"
+  }
 }
